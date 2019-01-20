@@ -1,6 +1,11 @@
 /**
  * Place your custom styles here.
  */
+
+ body {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
 .navbar-default {
   background-color: #ffffff;
   border: none;
