@@ -5,7 +5,7 @@
  * The primary PHP file for this theme.
  */
 function nmma_collection_theme_preprocess_page(&$vars) {
-  var_dump($vars['theme_hook_suggestions']);
+  // var_dump($vars['theme_hook_suggestions']);
 }
 
 function nmma_collection_theme_preprocess_block(&$variables) {
