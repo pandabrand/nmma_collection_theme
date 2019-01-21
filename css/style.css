@@ -35,3 +35,38 @@
 .menu-block-12 .nav .leaf a {
   background-color: transparent;
 }
+
+#block-views-c21036b1145d7649720f6315a9a07cea {
+  margin-bottom: 4em;
+}
+
+#views-exposed-form-nmma-collection-view-page-2 .views-exposed-widgets {
+  display: flex;
+}
+
+#views-exposed-form-nmma-collection-view-page-2 .views-exposed-widgets #edit-keys-wrapper {
+  flex-grow: 2;
+}
+
+#views-exposed-form-nmma-collection-view-page-2 .form-control {
+  border-radius: 4px 0 0 4px;
+}
+
+#views-exposed-form-nmma-collection-view-page-2 .form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  content: 'Discover by Artist Name, Title, or Keyword';
+}
+
+#views-exposed-form-nmma-collection-view-page-2 .form-control::-moz-placeholder { /* Chrome/Opera/Safari */
+  content: 'Discover by Artist Name, Title, or Keyword';
+}
+
+#views-exposed-form-nmma-collection-view-page-2 .btn-info {
+  color: #555;
+  background-color: #ccc;
+  border-color: #ccc;
+}
+
+#views-exposed-form-nmma-collection-view-page-2 .btn {
+  border-radius: 0 4px 4px 0;
+}
+
