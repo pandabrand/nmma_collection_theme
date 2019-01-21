@@ -77,8 +77,9 @@
 }
 
 .view-display-id-the_collection_page .view-content .views-row {
-  flex-basis: 100%;
+  flex-basis: 1 0 100%;
   margin-bottom: 3em;
+  height: 400px;
 }
 
 @media screen and (min-width: 768px) {
