@@ -6,6 +6,10 @@
    font-family: Georgia, 'Times New Roman', Times, serif;
  }
 
+ .logged-in .navbar.container {
+   margin-top: 50px;
+ }
+
 .navbar-default {
   background-color: #ffffff;
   border: none;
@@ -15,22 +19,19 @@
   border: none;
 }
 
-#block-block-11 p {
-  -webkit-columns: 1;
-  -moz-columns: 1;
-  columns: 1;
-  -webkit-column-gap: 0;
-  -moz-column-gap: 0;
-  column-gap: 0;
+.logo img {
+  height: 75px;
 }
 
-@media screen and (min-width: 768px) {
-  #block-block-11 p {
-    -webkit-columns: 2 40vw;
-    -moz-columns: 2 40vw;
-    columns: 2 40vw;
-    -webkit-column-gap: 2em;
-    -moz-column-gap: 2em;
-    column-gap: 2em;
-  }
+#block-block-11 {
+  margin-bottom: 2em;
+}
+
+.menu-block-12 .nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-block-12 .nav .leaf a {
+  background-color: transparent;
 }
