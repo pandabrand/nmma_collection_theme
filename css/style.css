@@ -46,6 +46,7 @@
 
 #views-exposed-form-nmma-collection-view-page-2 .views-exposed-widgets #edit-keys-wrapper {
   flex-grow: 2;
+  padding-right: 0;
 }
 
 #views-exposed-form-nmma-collection-view-page-2 .form-control {
@@ -68,5 +69,32 @@
 
 #views-exposed-form-nmma-collection-view-page-2 .btn {
   border-radius: 0 4px 4px 0;
+}
+
+.view-display-id-the_collection_page .view-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.view-display-id-the_collection_page .view-content .views-row {
+  flex-basis: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .view-display-id-the_collection_page .view-content .views-row {
+    flex-basis: 45%;
+    margin-right: 5%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .view-display-id-the_collection_page .view-content .views-row {
+    flex-basis: 30%;
+    margin-right: 3%;
+  }
+}
+
+.view-display-id-the_collection_page .view-content .views-row:last-child {
+  margin-right: 0;
 }
 
