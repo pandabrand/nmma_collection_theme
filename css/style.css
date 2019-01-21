@@ -110,3 +110,12 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+.collection-image-mini img {
+  margin: 0 auto;
+}
+
+.collection-image-mini collection-image-mini-title {
+  text-align: center;
+}
+
