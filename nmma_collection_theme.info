@@ -26,3 +26,12 @@ regions[page_bottom]    = 'Page bottom'
 ;;;;;;;;;;;;;;;;;;;;;
 
 stylesheets[all][] = css/style.css
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Breakpoints
+;;;;;;;;;;;;;;;;;;;;;
+
+breakpoints[mobile] = (min-width: 0px)
+breakpoints[tablet] = (min-width: 768px)
+breakpoints[small] = (min-width: 1024px)
+breakpoints[large] = (min-width: 1440px)
