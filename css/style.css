@@ -111,8 +111,15 @@
   justify-content: space-between;
 }
 
+.collection-image-mini picture {
+  height: 400px;
+  width: 100%;
+  display: flex;
+}
+
 .collection-image-mini img {
   margin: 0 auto;
+  object-fit: contain;
 }
 
 .collection-image-mini .collection-image-mini-title {
