@@ -40,40 +40,34 @@
   margin-bottom: 4em;
 }
 
-#edit-combine-wrapper .views-exposed-widgets,
 #views-exposed-form-nmma-collection-view-page-2 .views-exposed-widgets {
 display: flex;
 }
 
-#edit-combine-wrapper .views-exposed-widgets #edit-keys-wrapper,
+#views-exposed-form-nmma-collection-view-page-2 .views-exposed-widgets #edit-combine-wrapper,
 #views-exposed-form-nmma-collection-view-page-2 .views-exposed-widgets #edit-keys-wrapper {
   flex-grow: 2;
   padding-right: 0;
 }
 
-#edit-combine-wrapper .form-control,
 #views-exposed-form-nmma-collection-view-page-2 .form-control {
   border-radius: 4px 0 0 4px;
 }
 
-#edit-combine-wrapper .form-control::-webkit-input-placeholder,
 #views-exposed-form-nmma-collection-view-page-2 .form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   content: 'Discover by Artist Name, Title, or Keyword';
 }
 
-#edit-combine-wrapper .form-control::-moz-placeholder,
 #views-exposed-form-nmma-collection-view-page-2 .form-control::-moz-placeholder { /* Chrome/Opera/Safari */
   content: 'Discover by Artist Name, Title, or Keyword';
 }
 
-#edit-combine-wrapper .btn-info,
 #views-exposed-form-nmma-collection-view-page-2 .btn-info {
   color: #555;
   background-color: #ccc;
   border-color: #ccc;
 }
 
-#edit-combine-wrapper .btn,
 #views-exposed-form-nmma-collection-view-page-2 .btn {
   border-radius: 0 4px 4px 0;
 }
@@ -133,3 +127,22 @@ display: flex;
   text-align: center;
 }
 
+.item-wrapper {
+  display: flex;
+  margin-bottom: 1em;
+  border-bottom: solid #555 1em;
+}
+
+.item-wrapper_text ul {
+  padding: 1em;
+  list-style: none;
+}
+
+.item-wrapper_text ul li:first-child{
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.item-wrapper_image {
+  flex: 1;
+}
