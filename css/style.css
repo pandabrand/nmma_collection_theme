@@ -146,19 +146,29 @@
   padding-bottom: 1em;
   border-bottom: solid #555 1px;
   flex-wrap: wrap;
+}
 
-  @media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
+  .item-wrapper,
+  .node-nmma-collection-item-json {
     flex-wrap: nowrap;
   }
 }
+
 
 .item-wrapper>div,
 .node-nmma-collection-item-json .group-left,
 .node-nmma-collection-item-json .group-right {
   flex-basis: 100%;
 
-  @media screen and (min-width: 1024px) {
+}
+
+@media screen and (min-width: 1024px) {
+  .item-wrapper>div,
+  .node-nmma-collection-item-json .group-left,
+  .node-nmma-collection-item-json .group-right {
     flex-basis: 50%;
+
   }
 }
 
