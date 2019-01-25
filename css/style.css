@@ -39,11 +39,12 @@
 #block-views-c21036b1145d7649720f6315a9a07cea {
   margin-bottom: 4em;
 }
-
+#views-exposed-form-nmma-collection-view-page-2 .views-exposed-widgets,
 #boxes-box-nmma_search_form_3 #nmma-search-form > div {
   display: flex;
 }
 
+#edit-combine-wrapper label,
 #boxes-box-nmma_search_form_3 .control-label {
   display: none;
 }
@@ -59,16 +60,24 @@
   padding-right: 0;
 }
 
+#views-exposed-form-nmma-collection-view-page-2 .views-exposed-widgets .form-type-textfield .form-control,
 #boxes-box-nmma_search_form_3 #nmma-search-form .form-type-textfield .form-control {
   border-radius: 4px 0 0 4px;
 }
 
+#views-exposed-form-nmma-collection-view-page-2 .views-exposed-widgets .views-submit-button {
+  padding: 0;
+  float: unset;
+}
+
+#views-exposed-form-nmma-collection-view-page-2 .views-exposed-widgets .btn-primary,
 #boxes-box-nmma_search_form_3 #nmma-search-form .btn-primary {
   color: #555;
   background-color: #ccc;
   border-color: #ccc;
 }
 
+#views-exposed-form-nmma-collection-view-page-2 .views-exposed-widgets .btn,
 #boxes-box-nmma_search_form_3 .btn {
   border-radius: 0 4px 4px 0;
   margin-top: 0;
