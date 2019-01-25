@@ -44,7 +44,7 @@
   display: flex;
 }
 
-#boxes-box-nmma_search_form_3 .form-label {
+#boxes-box-nmma_search_form_3 .control-label {
   display: none;
 }
 
@@ -63,7 +63,7 @@
   border-radius: 4px 0 0 4px;
 }
 
-#boxes-box-nmma_search_form_3 #nmma-search-form .form-type-textfield .btn-primary {
+#boxes-box-nmma_search_form_3 #nmma-search-form .btn-primary {
   color: #555;
   background-color: #ccc;
   border-color: #ccc;
