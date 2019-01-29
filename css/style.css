@@ -196,3 +196,7 @@
   flex-direction: row-reverse;
   justify-content: flex-start;
 }
+
+.mb-2 {
+  margin-bottom: 2em;
+}
