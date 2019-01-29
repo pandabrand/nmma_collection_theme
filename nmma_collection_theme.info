@@ -28,6 +28,12 @@ regions[page_bottom]    = 'Page bottom'
 stylesheets[all][] = css/style.css
 
 ;;;;;;;;;;;;;;;;;;;;;
+;; Javscript
+;;;;;;;;;;;;;;;;;;;;;
+
+scripts[] = js/nmma_main.js
+
+;;;;;;;;;;;;;;;;;;;;;
 ;; Breakpoints
 ;;;;;;;;;;;;;;;;;;;;;
 
