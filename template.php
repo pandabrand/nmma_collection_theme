@@ -31,9 +31,8 @@ function nmma_collection_theme_preprocess_block(&$variables) {
 }
 
 function nmma_collection_theme_form_alter(&$form, &$form_state, $form_id){
-  dsm($form_id);
-  if($form_id == "views-exposed-form-nmma-collection-view-page-2"){
-    // dsm($form); // print $form array on the top of the page
+  if($form_id == "views-exposed-form"){
+    dsm($form); // print $form array on the top of the page
     if (isset($form['#edit-combine'])) {
       $form['#edit-combine']['#attributes'] = array('placeholder' => array(t('Discover by Artist Name, Title, or Keyword')));
     }
