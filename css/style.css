@@ -200,3 +200,7 @@
 .mb-2 {
   margin-bottom: 2em;
 }
+
+.form-required {
+  color: red;
+}
