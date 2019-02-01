@@ -150,13 +150,16 @@
 
 @media screen and (min-width: 1024px) {
   .item-wrapper,
-  .node-nmma-collection-item-json {
+  .node-nmma-collection-item-json,
+  .node-open-access-entry {
     flex-wrap: nowrap;
   }
 }
 
 
 .item-wrapper>div,
+.node-open-access-entry .group-left,
+.node-open-access-entry .group-right,
 .node-nmma-collection-item-json .group-left,
 .node-nmma-collection-item-json .group-right {
   flex-basis: 100%;
@@ -165,6 +168,8 @@
 
 @media screen and (min-width: 1024px) {
   .item-wrapper>div,
+  .node-open-access-entry .group-left,
+  .node-open-access-entry .group-right,
   .node-nmma-collection-item-json .group-left,
   .node-nmma-collection-item-json .group-right {
     flex-basis: 50%;
