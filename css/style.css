@@ -149,6 +149,12 @@
   flex-wrap: wrap;
 }
 
+.item-wrapper:last-of-type,
+.node-nmma-collection-item-json:last-of-type,
+.node-open-access-entry:last-of-type {
+  border-bottom: none;
+}
+
 @media screen and (min-width: 1024px) {
   .item-wrapper,
   .node-nmma-collection-item-json,
