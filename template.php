@@ -38,8 +38,8 @@ function nmma_collection_theme_form_alter(&$form, &$form_state, $form_id){
     }
 
     if(isset($form['#form_id']) && $form['#form_id'] == 'open_access_entry_node_form') {
-      $form['title']['#attributes'] = array('placeholder' => array(t('Discover by Artist Name, Title, or Keyword')));
-      $form['field_email']['#attributes'] = array('placeholder' => array(t('Email')));
+      $form['title']['#attributes'] = array('placeholder' => array(t('The title of your work')));
+      $form['field_email']['#attributes']['placeholder'] = array(t('Email'));
       $form['field_oae_first_name']['#attributes'] = array('placeholder' => array(t('First Name')));
       $form['field_oae_last_name']['#attributes'] = array('placeholder' => array(t('Last Name')));
       $form['field_oae_description']['#attributes'] = array('placeholder' => array(t('My work is...')));
