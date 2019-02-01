@@ -30,6 +30,13 @@
 .menu-block-12 .nav {
   display: flex;
   justify-content: flex-end;
+  flex-direction: column
+}
+
+@media screen and (min-width: 768px) {
+  .menu-block-12 .nav {
+    flex-direction: row;
+  }
 }
 
 .menu-block-12 .nav .leaf a {
