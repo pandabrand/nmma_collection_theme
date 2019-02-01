@@ -82,7 +82,7 @@
           <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
         </a>
       <?php endif; ?>
-      <img src="/sites/all/themes/nmma_collection_theme/images/GustavoHerreraYepez_2018_Postcard_573A9176-1x.jpg" class="secondary-header-img img-responsive">
+      <img src="/sites/all/themes/nmma_collection_theme/images/EricJGarcia_2018_Behind-the-Scenes-Visual389-1x.jpg" class="secondary-header-img img-responsive">
 
       <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
