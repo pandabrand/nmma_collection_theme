@@ -82,8 +82,9 @@
           <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
         </a>
       <?php endif; ?>
-      <img src="/sites/all/themes/nmma_collection_theme/images/EricJGarcia_2018_Behind-the-Scenes-Visual389-1x.jpg" class="secondary-header-img img-responsive">
-
+      <div class="secondary-header-image">
+        <img src="/sites/all/themes/nmma_collection_theme/images/EricJGarcia_2018_Behind-the-Scenes-Visual389-1x.jpg" class="img-responsive">
+      </div>
       <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
           <span class="sr-only"><?php print t('Toggle navigation'); ?></span>

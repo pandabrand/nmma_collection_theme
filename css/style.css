@@ -216,3 +216,19 @@
 .form-required {
   color: red;
 }
+
+.secondary-header-image {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .secondary-header-image {
+    display: block;
+    width: 100px;
+    float: right;
+  }
+}
+
+.navbar-header {
+  width: 100%;
+}
