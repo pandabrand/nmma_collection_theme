@@ -140,7 +140,8 @@
 }
 
 .item-wrapper,
-.node-nmma-collection-item-json {
+.node-nmma-collection-item-json,
+.node-open-access-entry {
   display: flex;
   margin-bottom: 1em;
   padding-bottom: 1em;
