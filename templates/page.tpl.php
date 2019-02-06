@@ -76,32 +76,36 @@
 ?>
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
   <div class="<?php print $container_class; ?>">
-    <div class="navbar-header">
-      <?php if ($logo): ?>
-        <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-        </a>
-      <?php endif; ?>
-      <div class="secondary-header-image">
-        <a class="name" href="/seekphotoinspiration" title="Seek Photo Inspiration"><img src="/sites/all/themes/nmma_collection_theme/images/EricJGarcia_2018_Behind-the-Scenes-Visual389-1x.jpg" class="img-responsive"></a>
+    <div class="row">
+      <div class="navbar-header">
+        <?php if ($logo): ?>
+          <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
+            <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+          </a>
+        <?php endif; ?>
+        <div class="secondary-header-image">
+          <a class="name" href="/seekphotoinspiration" title="Seek Photo Inspiration"><img src="/sites/all/themes/nmma_collection_theme/images/EricJGarcia_2018_Behind-the-Scenes-Visual389-1x.jpg" class="img-responsive"></a>
+        </div>
+        <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="sr-only"><?php print t('Toggle navigation'); ?></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <?php endif; ?>
       </div>
-      <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-          <span class="sr-only"><?php print t('Toggle navigation'); ?></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      <?php endif; ?>
     </div>
 
     <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
-      <div class="navbar-collapse collapse" id="navbar-collapse">
-        <nav role="navigation">
-‘         <?php if (!empty($page['navigation'])): ?>
-            <?php print render($page['navigation']); ?>
-          <?php endif; ?>
-        </nav>
+      <div class="row">
+        <div class="navbar-collapse collapse" id="navbar-collapse">
+          <nav role="navigation">
+  ‘         <?php if (!empty($page['navigation'])): ?>
+              <?php print render($page['navigation']); ?>
+            <?php endif; ?>
+          </nav>
+        </div>
       </div>
     <?php endif; ?>
   </div>
