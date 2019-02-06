@@ -162,6 +162,7 @@
 
 .collection-image-mini picture {
   display: flex;
+  max-height: 390px;
 }
 
 .collection-image-mini img {
