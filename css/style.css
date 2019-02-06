@@ -220,7 +220,7 @@
   padding-right: 0;
 }
 
-.group-left .field-label {
+.group-left .field .field-label {
   font-weight: normal;
   color: #aaaaaa;
 }
