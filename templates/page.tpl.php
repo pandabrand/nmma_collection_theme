@@ -83,7 +83,7 @@
         </a>
       <?php endif; ?>
       <div class="secondary-header-image">
-        <img src="/sites/all/themes/nmma_collection_theme/images/EricJGarcia_2018_Behind-the-Scenes-Visual389-1x.jpg" class="img-responsive">
+        <a class="name" href="/seekphotoinspiration" title="Seek Photo Inspiration"><img src="/sites/all/themes/nmma_collection_theme/images/EricJGarcia_2018_Behind-the-Scenes-Visual389-1x.jpg" class="img-responsive"></a>
       </div>
       <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">

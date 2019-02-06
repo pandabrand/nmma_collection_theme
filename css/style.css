@@ -4,6 +4,11 @@
 
  body {
    font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 1rem;
+ }
+
+ a {
+   color: #cc6633;
  }
 
  .logged-in .navbar.container {
@@ -17,6 +22,10 @@
 
 .page-header {
   border: none;
+}
+
+.logo {
+  margin-top: 33px;
 }
 
 .logo img {
@@ -144,20 +153,26 @@
   text-align: center;
 }
 
-.item-wrapper,
+.views-row,
 .node-nmma-collection-item-json,
 .node-open-access-entry {
   display: flex;
   margin-bottom: 1em;
+  margin-top: 1em;
   padding-bottom: 1em;
   border-bottom: solid #555 1px;
   flex-wrap: wrap;
 }
 
-.item-wrapper:last-of-type,
+.views-row.views-row-last,
 .node-nmma-collection-item-json:last-of-type,
 .node-open-access-entry:last-of-type {
   border-bottom: none;
+  margin-bottom: 0;
+}
+
+.views-row.views-row-first {
+  margin-top: 0;
 }
 
 @media screen and (min-width: 1024px) {
