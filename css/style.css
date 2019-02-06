@@ -235,11 +235,11 @@
   }
 
   .node-nmma-collection-item-json .group-left {
-    flex-basis: 30%;
+    flex-basis: 40%;
   }
 
   .node-nmma-collection-item-json .group-right {
-    flex-basis: 70%;
+    flex-basis: 60%;
   }
 
   .item-wrapper .item-wrapper_image {
