@@ -227,11 +227,19 @@
 
 @media screen and (min-width: 1024px) {
   /* .view-display-id-page_2 .views-row, */
+  /* .node-nmma-collection-item-json .group-left,
+  .node-nmma-collection-item-json .group-right, */
   .node-open-access-entry .group-left,
-  .node-open-access-entry .group-right,
-  .node-nmma-collection-item-json .group-left,
-  .node-nmma-collection-item-json .group-right {
+  .node-open-access-entry .group-right {
     flex-basis: 50%;
+  }
+
+  .node-nmma-collection-item-json .group-left {
+    flex-basis: 30%;
+  }
+
+  .node-nmma-collection-item-json .group-right {
+    flex-basis: 70%;
   }
 
   .item-wrapper .item-wrapper_image {
