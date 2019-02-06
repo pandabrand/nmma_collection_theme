@@ -12,18 +12,15 @@
  }
 
  a,
- .pagination > li > a {
+ .pagination > li > a,
+ .pagination > .active > span {
    color: #cc6633;
  }
 
  a:hover,
- .pagination > li > a:hover {
+ .pagination > li > a:hover,
+ .pagination > .active > span:hover {
    color: #8f4724;
- }
-
- .pagination > .active > span {
-  background-color: #8f4724;
-  border-color: #8f4724;
  }
 
  .logged-in .navbar.container {
