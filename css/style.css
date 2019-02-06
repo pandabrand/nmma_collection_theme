@@ -23,10 +23,12 @@
 
  .pagination > .active > span {
    background-color: #cc6633;
+   border-color: #cc6633;
  }
 
  .pagination > .active > span:hover {
    background-color: #8f4724;
+   border-color: #8f4724;
  }
 
  .logged-in .navbar.container {
@@ -216,6 +218,11 @@
 
 .item-wrapper .item-wrapper_image {
   padding-right: 0;
+}
+
+.group-left .field-label {
+  font-weight: normal;
+  color: #aaaaaa;
 }
 
 @media screen and (min-width: 1024px) {
