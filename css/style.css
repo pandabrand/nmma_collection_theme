@@ -15,6 +15,10 @@
    color: #cc6633;
  }
 
+ a:hover {
+   color: #8f4724;
+ }
+
  .logged-in .navbar.container {
    margin-top: 50px;
  }
