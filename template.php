@@ -42,7 +42,7 @@ function nmma_collection_theme_form_alter(&$form, &$form_state, $form_id){
       $form['field_email']['und'][0]['value']['#attributes']['placeholder'] = t('Email');
       $form['field_oae_first_name']['und'][0]['value']['#attributes']['placeholder'] = t('First Name');
       $form['field_oae_last_name']['und'][0]['value']['#attributes']['placeholder'] = t('Last Name');
-      $form['field_oae_description']['und'][0]['value']['#attributes']['placeholder'] = t('My work is...');
+      $form['field_oae_description']['und'][0]['value']['#attributes']['placeholder'] = t('Please share a bit about your submission with us!');
     }
   // }
 }
