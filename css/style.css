@@ -4,7 +4,11 @@
 
  body {
    font-family: Georgia, 'Times New Roman', Times, serif;
-   font-size: 1rem;
+   font-size: calc(1rem * 1.5);
+ }
+
+ .nav>li>a {
+   font-size: 14px;
  }
 
  a {
@@ -153,7 +157,7 @@
   text-align: center;
 }
 
-.views-row,
+.view-display-id-page_2 .views-row,
 .node-nmma-collection-item-json,
 .node-open-access-entry {
   display: flex;
@@ -164,19 +168,20 @@
   flex-wrap: wrap;
 }
 
-.views-row.views-row-last,
+.view-display-id-page_2 .views-row.views-row-last,
 .node-nmma-collection-item-json:last-of-type,
 .node-open-access-entry:last-of-type {
   border-bottom: none;
   margin-bottom: 0;
 }
 
-.views-row.views-row-first {
+.view-display-id-page_2 .views-row.views-row-first {
   margin-top: 0;
 }
 
 @media screen and (min-width: 1024px) {
   .item-wrapper,
+  .view-display-id-page_2 .views-row,
   .node-nmma-collection-item-json,
   .node-open-access-entry {
     flex-wrap: nowrap;
