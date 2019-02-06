@@ -200,6 +200,10 @@
   flex-basis: 100%;
 }
 
+.item-wrapper .item-wrapper_image {
+  padding-right: 0;
+}
+
 @media screen and (min-width: 1024px) {
   /* .view-display-id-page_2 .views-row, */
   .node-open-access-entry .group-left,
@@ -211,6 +215,7 @@
 
   .item-wrapper .item-wrapper_image {
     flex-basis: 30%;
+    padding-right: 1.5em;
   }
 
   .item-wrapper .item-wrapper_text {
@@ -221,6 +226,11 @@
 .item-wrapper_text ul {
   padding: 1em;
   list-style: none;
+}
+
+.item-wrapper_text .lighter {
+  color: #aaaaaa;
+  padding-right: 0.5em;
 }
 
 .node-nmma-collection-item-json .group-left .field-name-field-full-title,
