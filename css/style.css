@@ -307,3 +307,7 @@
 .navbar-header {
   width: 100%;
 }
+
+.field-name-field-computed-accession-number .field-item p {
+  font-weight: bold;
+}
