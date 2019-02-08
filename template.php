@@ -47,6 +47,6 @@ function nmma_collection_theme_form_alter(&$form, &$form_state, $form_id){
   // }
 }
 
-function seekphotoinspiration_submit($form, &$form_state) {
-  $form_state['redirect'] = 'seekin';
+function open_access_entry_node_submit($form, &$form_state) {
+  $form_state['redirect'] = '/seekin';
 }
