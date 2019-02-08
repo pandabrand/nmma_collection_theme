@@ -43,10 +43,11 @@ function nmma_collection_theme_form_alter(&$form, &$form_state, $form_id){
       $form['field_oae_first_name']['und'][0]['value']['#attributes']['placeholder'] = t('First Name');
       $form['field_oae_last_name']['und'][0]['value']['#attributes']['placeholder'] = t('Last Name');
       $form['field_oae_description']['und'][0]['value']['#attributes']['placeholder'] = t('Please share a bit about your submission with us!');
+      $form['#submit'][] = 'open_access_entry_node_form_submit_handler';
     }
   // }
 }
 
-function open_access_entry_node_submit($form, &$form_state) {
+function open_access_entry_node_form_submit_handler($form, &$form_state) {
   $form_state['redirect'] = '/seekin';
 }
