@@ -31,7 +31,7 @@ function nmma_collection_theme_preprocess_block(&$variables) {
 }
 
 function nmma_collection_theme_form_alter(&$form, &$form_state, $form_id){
-  // dsm($form); // print $form array on the top of the page
+  dsm($form); // print $form array on the top of the page
   // if($form_id == "views-exposed-form"){
     if (isset($form['combine'])) {
       $form['combine']['#attributes'] = array('placeholder' => array(t('Discover by Artist Name, Title, or Keyword')));
@@ -47,6 +47,6 @@ function nmma_collection_theme_form_alter(&$form, &$form_state, $form_id){
   // }
 }
 
-function open_access_entry_node_submit($form, &$form_state) {
+function seekphotoinspiration_submit($form, &$form_state) {
   $form_state['redirect'] = 'seekin';
 }
