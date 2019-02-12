@@ -254,7 +254,8 @@
   }
 }
 
-.item-wrapper_text ul {
+.item-wrapper_text ul,
+.node-open-access-entry .group-right ul {
   padding: 1em;
   list-style: none;
 }
@@ -265,6 +266,7 @@
 }
 
 .node-nmma-collection-item-json .group-left .field-name-field-full-title,
+.node-open-access-entry .group-right ul li:first-child,
 .item-wrapper_text ul li:first-child {
   font-size: 1.25em;
   font-weight: bold;
